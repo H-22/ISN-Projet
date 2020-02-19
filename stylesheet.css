@@ -1,59 +1,10 @@
-html
+h2
 {
-    margin: 0 ;
-     padding: 0;
-}
-h1
-{
-    font-size: 32px;
-    font-family: Arial;
-    color: #FF3296;
-    margin-top: 20px;
-    text-align: center
-        
-}
-
-
-header nav {
-    float: right;
-    margin-top: -20
-}
-
-ul
-{
-    list-style: none;
-}
-
-header nav ul li
-{
-    display: inline-block;
-   
-}
-
-header nav ul li a 
-{
-    margin-right: 25px
-}
-a
-{
-    text-decoration: none; /*POur ne plus que ce soit souligner*/
-        color:#B41EB2;
-        
-}
-
-#prochainement
-{
-    height: 720px;
-    background: url('') center;
-    margin-top: 90px;
-    background-repeat:no-repeat;
-        
-}
-
-h2 
-{
-    font-size: 45px;
     color: red;
-    text-align: center
-    
+       text-align: center
 }
+
+.photo
+{
+   width: 901px;
+	height: 496px;
