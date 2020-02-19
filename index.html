@@ -1,44 +1,92 @@
-<!doctype html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Titre de la page</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-</head>
-<body>
-  <header>
-            <div class=centrer> 
-                <h1> Nom du site </h1>
-                <nav> 
-                    <ul> 
-                        <li><a> YouTube</a> </li>
-                         <li><a>Fillm </a> </li>
-                         <li> <a> Série</a></li>
-                         <li><a href="contact"> Contact </a>  </li>
-                    
-                    </ul>
-                </nav>
-            </div>
-            
-        </header>
-        
-            <section id= prochainement>
-                <h2> Les actualités audiovisuel</h2>
-            
-            </section>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Nom du site</title>
+        <meta charset="utf-8"/> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"> </script>
+        <meta name="viewport" content="witdh=device-width, initial-scale=1"> 
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="script.js"></script>        
+
+    </head>
+
+    <body>
            
-        <section id=contact>
-        
-            </section>
-        
-        
-        <footer>
-             <div class=centrer> 
+     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Search</button>
+  </form>
+</nav>
+
+        <section id= "prochain"> 
+            <div class="cantainer"> 
+            <div class="red-divider"></div>
+                <div class="heading"> 
+                <h2> Prochainement :</h2>
+                </div>
             </div>
-            <p>Contactez-nous</p>
-        
-        </footer>
-  
-</body>
+          <!--Carousel Wrapper-->
+        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" style="max-width: 600px" style="max-height: 600px">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view">
+        <img class="photo" src="images/lordrings.jpg"
+          alt="First slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Lord of the rings</h3>
+        <p>6 novembre 2002</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="photo" src="images/Spider-Man-far-from-home.jpg"
+          alt="Second slide">
+        <div class="mask rgba-black-strong"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">SpidermMan</h3>
+        <p>6 fevrier 1932 </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="photo" src="images/Venom-poster.jpg"
+          alt="Third slide">
+        <div class="mask rgba-black-slight"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Venom</h3>
+        <p>6 janvier 2048</p>
+      </div>
+    </div>
+  </div>
+  <!--/.Slides-->
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+      
+       </section>
+       
+        </body>
 </html>
