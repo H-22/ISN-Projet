@@ -1,10 +1,50 @@
-h2
+h1
 {
     color: red;
-       text-align: center
+}
+.bck
+{
+    color: aqua
 }
 
-.photo
+.carousel-control-next
+{color: red}
+
+#week
 {
-   width: 901px;
-	height: 496px;
+  font-family: 'Krona One', sans-serif;
+    font-size: 40px;
+    color: crimson;
+    margin-top: 50px;
+    text-align: center;
+}
+.titre-page
+{
+    text-align: center;
+    color: #FF0BE1
+}
+
+body
+{
+    background-color: #F7F7F7
+}
+
+.actu
+{
+    font-size:50px;
+        color:black;
+}
+
+nav
+{
+    margin-bottom: 30px;
+}
+
+/* ADMIN*/ 
+.admin
+{
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
