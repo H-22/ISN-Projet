@@ -1,0 +1,31 @@
+.spotify
+{
+ float: right;
+    font-size: 20px;
+    color: blueviolet;
+    font-family: monospace;
+}
+
+h2
+{
+    font-size: 45px;
+    text-align: center;
+    color: red
+}
+
+h4
+{
+    padding-left: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.trailer
+{
+   padding-left: 115px;
+}
+
+#presentation ul li
+{
+    width: 300px;
+    float: left;
+}
