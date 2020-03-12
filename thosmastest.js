@@ -1,5 +1,28 @@
 var currentTheme = '';
 
+'night' {
+
+      backgroundColor:'#000000',
+
+      textColor: '#FFFFFF',
+
+    }
+
+'day':  {
+
+      backgroundColor:'#FFFFFF',
+
+      textColor: '#000000',
+
+    }
+
+
+
+
+
+
+
+
 function setTheme(theme) {
 
   if (currentTheme === theme) {
@@ -10,11 +33,16 @@ function setTheme(theme) {
 
   }
 
+  
+  
+  
   currentTheme = theme;
 
   browser.theme.update(themes[theme]);
 
 }
+
+
 
 
   if {
