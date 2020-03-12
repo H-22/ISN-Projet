@@ -48,3 +48,10 @@ nav
     border-radius: 10px;
 }
 
+.btn {
+	padding: 10px;
+	
+	background-color: pink;
+	
+	border-color: pink;
+}
