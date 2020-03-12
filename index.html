@@ -18,59 +18,49 @@
         <h1 class="titre-page">  Cinéref </h1>
     
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Cinéref</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Quiz</a>
-      </li>
-    
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-       Films
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="seigneurdesanneaux.html">Aventure</a>
-          <a class="dropdown-item" href="#">Comédie</a>
-        </div>
-      </li>
-           <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-       Séries
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Horreur</a>
-          <a class="dropdown-item" href="#">Dramatique</a>
-          <a class="dropdown-item" href="#">Drôle</a>
-        </div>
-      </li>
-           <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-       
-            <button type="button" class="btn btn-danger">Youtube</button>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Court métrage</a>
-          <a class="dropdown-item" href="#">Séries</a>
-           </div>
-                <li class="nav-item">
-        <a class="nav-link" href="inscription.php">Se connecter</a>
-      </li>
-                 
-               <div class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="Films/Séries..." aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
-               </div>
-      </li>
-    </ul>
-  </div>
+  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+  <button type="button" class="btn btn-secondary">Accueil</button>
+  <button type="button" class="btn btn-secondary">Quiz</button>
+
+		<div class="btn-group" role="group">
+			<button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Films
+			</button>
+			<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+				<a class="dropdown-item" href="#">Action</a>
+				<a class="dropdown-item" href="seigneurdesanneaux.html">Aventure</a>
+				<a class="dropdown-item" href="#">Comédie</a>
+			</div>
+		</div>
+		
+		<div class="btn-group" role="group">
+			<button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Séries
+			</button>
+			<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+				<a class="dropdown-item" href="#">Horreur</a>
+				<a class="dropdown-item" href="#">Dramatique</a>
+				<a class="dropdown-item" href="#">Drôle</a>
+			</div>
+		</div>
+		
+		<div class="btn-group" role="group">
+		<button id="btnGroupDrop1" type="button" class="btn btn-danger" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Youtube
+			</button>
+			<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+				<a class="dropdown-item" href="#">Court métrage</a>
+				<a class="dropdown-item" href="#">Séries</a>
+			</div>
+		</div>
+
+			<button type="button" class="btn btn-secondary" href="inscription.php">Se connecter</button>
+	</div>
+  
+	<div class="form-inline">
+		<input class="form-control mr-sm-2" type="search" placeholder="Films/Séries..." aria-label="Search">
+		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+	</div>
 </nav>
         
        </div>
