@@ -1,31 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr" >
 <head>
     <title> Cinéref </title>
-    <meta charset="utf-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1">              
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link href="stylesheet.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Krona+One&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 
 
     </head>
 <body>
-    <header class="bck">
-    <div class="container site">
-        <h1 class="titre-page">  Cinéref </h1>
-    
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-		
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-		
-  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-  <button type="button" class="btn btn-secondary">Accueil</button>
-  <button type="button" class="btn btn-secondary">Quiz</button>
+    <header class="container-fluid">
 
+    <div class="row align-items-center">
+      <div class="col">
+        <form id="Rechercher" class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Films/Séries..." aria-label="Search">
+          <button id="recherche" class="fa fa-search btn btn-outline-success my-sm-0"  type="submit"> </button>
+
+
+
+
+        </form>
+      </div>
+      <div class="col text-center">
+        <h1 class="titre-page">Cinéref</h1>
+      </div>
+      <div class="col d-flex justify-content-end align-items-center">
+        <a href="inscription.php" class="btn btn-secondary" id="inscription" role="button" >Se connecter</a>
+      </div>
+    </div>
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container">
+	   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
+
+
+        <span class="navbar-toggler-icon"></span>
+     </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+
+<ul class="navbar-nav">
+
+<li class="nav-item">
+  <a href="index.html" class="btn btn-secondary" role="button" > Accueil</a>
+</li>
+<li class="nav-item">
+  <button type="button" class="btn btn-secondary">Quiz</button>
+</li>
+
+<li class="nav-item dropdown">
 		<div class="btn-group" role="group">
 			<button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					Films
@@ -35,40 +74,43 @@
 				<a class="dropdown-item" href="seigneurdesanneaux.html">Aventure</a>
 				<a class="dropdown-item" href="#">Comédie</a>
 			</div>
-		</div>
-		
+    </div>
+</li>
+
+<li class="nav-item dropdown">
 		<div class="btn-group" role="group">
-			<button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<button id="btnGroupDrop2" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					Séries
 			</button>
-			<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+			<div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
 				<a class="dropdown-item" href="#">Horreur</a>
 				<a class="dropdown-item" href="#">Dramatique</a>
 				<a class="dropdown-item" href="#">Drôle</a>
 			</div>
 		</div>
-		
+  </li>
+
+<li class="nav-item dropdown">
 		<div class="btn-group" role="group">
-		<button id="btnGroupDrop1" type="button" class="btn btn-danger" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		<button id="btnGroupDrop3" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					Youtube
 			</button>
-			<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+			<div class="dropdown-menu" aria-labelledby="btnGroupDrop3">
 				<a class="dropdown-item" href="#">Court métrage</a>
 				<a class="dropdown-item" href="#">Séries</a>
 			</div>
 		</div>
+  </li>
+  </ul>
+</div>
+</div>
 
-			<button type="button" class="btn btn-secondary" href="inscription.php">Se connecter</button>
-	</div>
-  
-	<div class="form-inline">
-		<input class="form-control mr-sm-2" type="search" placeholder="Films/Séries..." aria-label="Search">
-		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
-	</div>
+</div>
 </nav>
-        
-       </div>
-     </header>
+
+
+</header>
+
      <div class="container site">
     <h2 id="week"> Les actualités de la semaine : </h2>
      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -93,12 +135,12 @@
       </div>
     </div>
     <div class="carousel-item">
-        <a href="https://www.google.fr/" ><img src="image/hobbit.jpg" class="d-block w-100" alt="..." href="google.com"></a>
+        <a href="https://www.google.fr/" ><img src="image/hobbit.jpg" class="d-block w-100" alt="..."></a>
       <div class="carousel-caption d-none d-md-block">
         <h5 class="actu">Actualité 3</h5>
         <p>blababla.</p>
       </div>
-   
+
   </div>
   <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -112,10 +154,10 @@
          </div>
 
 
-    
+
     </div>
     </body>
-    
+
 
 
 
