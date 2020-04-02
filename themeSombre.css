@@ -1,0 +1,73 @@
+h1{
+    color: red
+}
+
+.bck{
+    color: aqua
+}
+
+
+
+.carousel-control-next{
+color: red
+}
+
+
+
+#week{
+  font-family: 'Krona One', sans-serif;
+    font-size: 40px;
+    color: crimson;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.titre-page{
+    color: #FF0BE1
+}
+
+body{
+    background-color: #000000
+}
+
+.actu{
+    font-size:50px;
+        color:white;
+}
+
+nav{
+    margin-bottom: 30px;
+}
+
+
+/* ADMIN*/
+.admin {
+    background: #000;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.btn {
+	padding: 10px;
+	background-color: pink;
+	border-color: pink;
+  width: 110px;
+}
+
+.container-fluid {
+    line-height: normal;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#Rechercher {
+padding-left: 20px;
+}
+
+#inscription {
+  padding-right: 20px;
+  width: 120px;
+}
+
+#recherche{
+width: 40px;
+}
