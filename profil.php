@@ -1,8 +1,8 @@
 	<?php
 session_start();
- 
-$bdd = new PDO('mysql:host=127.0.0.1;dbname=espace_membre', 'root', ''); // Permet de trouver la base de donnée
- 
+
+$bdd = new PDO('mysql:host=127.0.0.1;dbname=espace_membre', 'root', 'root'); // Permet de trouver la base de donnée
+
 if(isset($_GET['id']) AND $_GET['id'] > 0) {
    $getid = intval($_GET['id']);
    $requser = $bdd->prepare('SELECT * FROM membres WHERE id = ?');
@@ -35,6 +35,6 @@ if(isset($_GET['id']) AND $_GET['id'] > 0) {
       </div>
    </body>
 </html>
-<?php   
+<?php
 }
 ?>

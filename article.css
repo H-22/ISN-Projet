@@ -1,3 +1,62 @@
+/*Header */
+
+.titre-page
+{
+    color: #FF0BE1
+}
+
+
+
+
+
+
+.btn {
+	padding: 10px;
+
+	background-color: grey;
+
+	border-color: grey;
+
+  width: 110px;
+
+}
+
+.container-fluid {
+    line-height: normal;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+#Rechercher {
+
+padding-left: 20px;
+
+}
+
+#inscription {
+
+  padding-right: 20px;
+  width: 120px;
+
+}
+
+#recherche
+{
+width: 40px;
+}
+
+
+
+body
+{
+    background-color: #F7F7F7
+}
+
+#Comment
+{
+  text-align: center;
+}
+
 .spotify
 {
  float: right;
@@ -10,7 +69,7 @@ h2
 {
     font-size: 45px;
     text-align: center;
-    color: red
+    color: red;
 }
 
 h4
@@ -19,13 +78,39 @@ h4
     font-family: 'Merriweather', serif;
 }
 
-.trailer
-{
-   padding-left: 115px;
+h5{
+  font-weight: bold;
 }
+
 
 #presentation ul li
 {
     width: 300px;
     float: left;
+    background-color: #F7F7F7;
+}
+
+
+
+.trailer {
+
+border: 0px;
+
+}
+
+.container {
+
+
+
+}
+
+#spotify {
+
+padding-right: 0;
+padding-top: 0;
+
+}
+.col-lg-1
+{
+  padding-top: 25px;
 }
