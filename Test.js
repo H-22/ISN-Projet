@@ -96,3 +96,33 @@
             </div>
 
         </div>
+
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+ <div class="Test-navigation">
+                <div class="TestNavigation-prev" hidden="">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" aria-hidden="true" viewBox="0 0 26 26">
+                            <path d="M 6.3 13.683 L 18.334 25.72 c 0.375 0.374 0.99 0.374 1.365 0 s 0.375 -0.99 0 -1.366 L 8.347 13 L 19.7 1.647 c 0.376 -0.375 0.376 -0.99 0 -1.365 s -0.99 -0.375 -1.364 0 L 6.3 12.317 a 0.97 0.97 0 0 0 0 1.366 Z">
+                        </path></svg>
+                    </button>
+                </div>
+                <p class="TestNavigation-page">
+                    <span>1</span>
+                    /                        20
+                    
+
+                </p>
+                <div class="TestNavigation-next">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" aria-hidden="true" viewBox="0 0 26 26">
+                            <path d="M 19.7 12.317 L 7.666 0.282 c -0.375 -0.375 -0.99 -0.375 -1.365 0 s -0.375 0.99 0 1.365 L 17.653 13 L 6.3 24.353 c -0.376 0.375 -0.376 0.99 0 1.365 s 0.99 0.375 1.364 0 L 19.7 13.682 a 0.968 0.968 0 0 0 0 -1.365 Z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
