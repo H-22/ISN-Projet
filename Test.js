@@ -72,7 +72,7 @@
                             </li>
                                                                                 <li class="TestChoice-item">
                                 <button data-id="70217" data-value="314">
-                                                                            Légers.
+                                                                            Léger.
                                     
                                 </button>
                             </li>
