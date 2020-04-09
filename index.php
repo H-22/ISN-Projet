@@ -38,6 +38,12 @@ else {
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<!-- Ceci est la ligne d'origine -->
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<!-- Ceci est la ligne modifiée -->
+<link rel="stylesheet" type="text/css" href="css/styles_light.css" id="theme-link">
+
+
 
 
 
@@ -183,9 +189,11 @@ else {
     </div>
   </main>
 
-    </body>
 
+<footer>
+<span id="theme">Thème sombre</span>   
+</footer>
 
-
-
+<script src=script.js></script>
+	</body>
 </html>
